@@ -84,7 +84,7 @@ vulse-frontend/
 ├── tailwind.config.ts          # Tailwind CSS configuration (optional)
 ├── tsconfig.json               # TypeScript configuration (optional)
 ├── .env                        # Environment variables (optional)
-├── .dockerignore               # Docker ignore rules
+├── .dockerignore               # Docker ignores rules
 ├── .gitignore                  # Git ignore rules
 ├── package.json                # Node.js dependencies and scripts
 ├── README.md                   # Project documentation
