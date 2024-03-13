@@ -24,9 +24,9 @@ Brief description of your Next.js application.
 
 ## Usage
 
-1.Start the development server:
+1. Start the development server:
     npm run dev
-2.Open your browser and visit <http://localhost:3000> to view the application.
+2. Open your browser and visit <http://localhost:3000> to view the application.
 
 ## Configuration
 
@@ -37,62 +37,63 @@ Environment Variables:
 
 vulse-frontend/
 │
-├── .next/                      # Next.js build output (auto-generated)
+├── .next/                     # Next.js build output (auto-generated)
 │
-├── node_modules/               # Node.js dependencies (auto-generated)
+├── node_modules/              # Node.js dependencies (auto-generated)
 │
-├── app/                        # Next.js pages
-│   ├── index.js                # Home page
-│   ├── about.js                # About page
-│   ├── contact.js              # Contact page
+├── app/                       # Next.js pages
+│   ├── index.js               # Home page
+│   ├── about.js               # About page
+│   ├── contact.js             # Contact page
 │   └── ...
 │
-├── public/                     # Static assets (e.g., images, fonts)
-│   ├── favicon.ico             # Favicon
+├── public/                    # Static assets (e.g., images, fonts)
+│   ├── favicon.ico            # Favicon
 │   └── ...
 │
-├── app/components/             # React components
-│   ├── CreateQuiz.tsx         # CreateQuiz component
-│   ├── HeaderName.tsx         # HeaderName component
-│   ├── MenuBar.tsx            # MenuBar component
-│   ├── QuizTable.tsx          # QuizTable component
-│   ├── ResponsiveTable.tsx    # ResponsiveTable component
-│   ├── ResultTable.tsx        # ResultTable component
+├── app/components/            # React components
+│   ├── CreateQuiz.tsx        # CreateQuiz component
+│   ├── HeaderName.tsx        # HeaderName component
+│   ├── MenuBar.tsx           # MenuBar component
+│   ├── QuizTable.tsx         # QuizTable component
+│   ├── ResponsiveTable.tsx   # ResponsiveTable component
+│   ├── ResultTable.tsx       # ResultTable component
 │   └── ...
 │
-├── api/                        # API endpoints (optional)
-│   ├── api.ts                  # User API endpoint
+├── api/                       # API endpoints (optional)
+│   ├── api.ts                # User API endpoint
 │   └── ...
 │
-├── app/home/                   # Home page components
-│   ├── page.tsx                # Home page
+├── app/home/                  # Home page components
+│   ├── page.tsx              # Home page
 │
-├── app/login/                  # Login page components
-│   ├── page.tsx                # Login page
+├── app/login/                 # Login page components
+│   ├── page.tsx              # Login page
 │
-├── app/quiz/                   # Quiz page components
-│   ├── page.tsx                # Quiz page
+├── app/quiz/                  # Quiz page components
+│   ├── page.tsx              # Quiz page
 │
-├── app/results/                # Results page components
-│   ├── page.tsx                # Results page
+├── app/results/               # Results page components
+│   ├── page.tsx              # Results page
 │
-├── app/users/                  # Users page components
-│   ├── page.tsx                # Users page
+├── app/users/                 # Users page components
+│   ├── page.tsx              # Users page
 │
-├── types.ts                    # TypeScript types (optional)
-├── Dockerfile                  # Dockerfile for containerization (optional)
-├── tailwind.config.ts          # Tailwind CSS configuration (optional)
-├── tsconfig.json               # TypeScript configuration (optional)
-├── .env                        # Environment variables (optional)
-├── .dockerignore               # Docker ignores rules
-├── .gitignore                  # Git ignore rules
-├── package.json                # Node.js dependencies and scripts
-├── README.md                   # Project documentation
+├── types.ts                   # TypeScript types (optional)
+├── Dockerfile                 # Dockerfile for containerization (optional)
+├── tailwind.config.ts         # Tailwind CSS configuration (optional)
+├── tsconfig.json              # TypeScript configuration (optional)
+├── .env                       # Environment variables (optional)
+├── .dockerignore              # Docker ignore rules
+├── .gitignore                 # Git ignore rules
+├── package.json               # Node.js dependencies and scripts
+├── README.md                  # Project documentation
 └── ...
+
 
 ## Deployment
 
- 1.Build the Docker image:
+ 1. Build the Docker image:
     `docker build -t vulse-frontend .` 
 
 2.Run the Docker container:
